@@ -12,9 +12,10 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    padding: 0 16px;
     font-size: 32px;
     font-weight: 900;
-    padding: 0 16px;
+padding: 0 16px;
 }
 
 .footer {
@@ -30,7 +31,7 @@ body {
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
-    display: flex;
+display: flex;
     flex-flow: column wrap;
     flex-shrink: 0;
     padding: 16px;
@@ -70,4 +71,16 @@ ul {
 
 li {
     margin-bottom: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
 }
